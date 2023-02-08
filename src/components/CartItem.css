@@ -1,0 +1,38 @@
+.cart-item{
+ display:flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color: transparent; 
+}
+
+.cart-item-name{
+  font-size: 1.7rem;;
+}
+
+.cart-item-price{
+  font-size: 1.2rem;
+}
+
+.total-item-price{
+  font-size: 1.4rem;
+}
+
+.total-item-price button{
+  border-radius: 50%;
+  border:1px solid #439A97;
+  font-size: 1.3rem;
+  margin: 0 2px;
+  cursor: pointer;
+  width:25px;
+  padding:0 5px;
+}
+
+.total-item-price button:hover{
+  background-color: rgb(232, 232, 232);
+}
+
+.incr-decr-container{
+  display: flex;
+  justify-content: end;
+  padding:5px;
+}

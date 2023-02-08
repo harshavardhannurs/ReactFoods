@@ -1,0 +1,28 @@
+.description-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description{
+  width:300px;
+  padding: 3%;
+  font-size: 1.3rem;
+  background-color: aliceblue;
+  border-radius:25px;
+  overflow-wrap: break-word;
+  animation:desc-animation 300ms ease-in forwards;
+  border:1px solid #439A97;
+}
+
+@keyframes desc-animation{
+  from{
+    transform:translateY(-2rem);
+    opacity:0;
+  }
+
+  to{
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}

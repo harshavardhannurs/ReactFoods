@@ -1,0 +1,25 @@
+.items-container{
+  display:flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.items-wrapper{
+  width:500px;
+  background-color: aliceblue;
+  border-radius: 50px;
+  border:1px solid #439A97;
+  animation: wrapper-animation 400ms ease-in forwards;
+}
+
+@keyframes wrapper-animation{
+  from{
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+
+  to{
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+}
